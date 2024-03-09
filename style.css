@@ -1,0 +1,120 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* background-color: rgb(167, 167, 200);
+    min-height: 70vh;
+    
+    border: 10px solid rgb(33, 46, 62);
+    margin: 30px; */
+    /* width:  900px;
+
+Height:1061px;
+
+Top:27px;
+
+Left:27px;
+Radius:13px;
+
+}
+.text{
+    width: 393px;
+height: 96px;
+top: 198px;
+left: 306px;
+border-radius: 5px;
+border: 1px;
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+} */ */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    background-color: #ccc;
+}
+.container{
+    max-width: 900px;
+    margin: 0;
+}
+.apply_box{
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 5px 3px rgba(1, 1, 1, 0.1);
+    border-radius: 10px;
+}
+.small_title{
+    font-size: 15px;
+}
+.form_container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; 
+}
+.form_control{
+    /* display: flex; */
+    /* flex-direction: column;
+} */
+label{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+input,select,textarea{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;   
+}
+
+input:focus{
+    outline-color: red;
+}
+.button_container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+button{
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    border: transparent solid 2px;
+    border-radius: 8px;
+    transition: 0.5s ease-in;
+}
+button:hover{
+    background-color: gray;
+    color: black;
+    border: brown solid 2px;
+    transition: 0.5 ease-out;
+    cursor: pointer;
+}
+
+/* .text_content{
+    grid-column: 1 / span 2;
+}
+.text_content textarea{
+    width: 100%;
+} */
+
+/* @media (max-width: 480px){
+    .text_content{
+        grid-column: 1 / span 1;
+    }
+} */
